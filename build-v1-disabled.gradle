@@ -1,0 +1,13 @@
+/**
+* In Gradle plugin gives us a lot tasks
+*
+*/
+
+apply plugin: 'java' 
+
+defaultTasks 'clean','test','javadoc'
+
+/**
+test task dependensOn compile task
+therefore whenever we run test task automatically compilation happens
+*/
